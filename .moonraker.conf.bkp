@@ -95,3 +95,9 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
+[update_manager CanBoot]
+type = git_repo
+path = ~/CanBoot
+origin = https://github.com/Arksine/CanBoot.git
+is_system_service = False
+
